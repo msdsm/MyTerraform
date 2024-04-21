@@ -14,10 +14,13 @@ module "ecr" {
 
   name_prefix = var.name_prefix
   region      = var.region
+  profile     = var.profile
   tag_name    = var.tag_name
   tag_group   = var.tag_group
 
   account_id = var.account_id
+
+  dockerfile_path = "./"
 }
 
 # IAM
