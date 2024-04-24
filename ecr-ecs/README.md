@@ -33,3 +33,8 @@
 
 ### aws_iam_role_policy_attachment
 - ポリシーをロールにアタッチする
+
+### aws_cloudwatch_log_group
+- retention_in_days
+  - optionalな引数
+  - ログを保持する最大日数を指定できる
