@@ -1,6 +1,6 @@
 # Internet Gateway
 resource "aws_internet_gateway" "default" {
-  vpc_id = aws_vpc.default.vpc_id
+  vpc_id = aws_vpc.default.id
 
   tags = {
     Name  = "${var.tag_name}-repository"

@@ -21,6 +21,6 @@ resource "aws_iam_role" "default" {
 }
 
 resource "aws_iam_role_policy_attachment" "default" {
-  role       = aws_iam_role.deafult.name
+  role       = aws_iam_role.default.name
   policy_arn = local.ecs_task_execution_role_policy_arn
 }
