@@ -62,3 +62,6 @@
 - https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
 - リスナーの作成
 - どのプロトコルでどのポートでのアクセスを受け付けるかという話
+
+### template_file
+- fileをオープンする際にファイル内で使用している環境編巣にvariableの値を代入できる
