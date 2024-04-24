@@ -6,7 +6,6 @@ variable "webapp_port" {}
 # Tags
 variable "tag_name" {}
 variable "tag_group" {}
-variable "webapp_port" {}
 
 # Task
 variable "ecr_repository_uri" {}
