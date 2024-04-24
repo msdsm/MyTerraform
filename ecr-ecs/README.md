@@ -38,3 +38,27 @@
 - retention_in_days
   - optionalな引数
   - ログを保持する最大日数を指定できる
+
+### aws_lb_target_group
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group
+- deregistratioin_delay
+  - targetの老徳が解除されたときにload balancerが待つ時間を指定
+- target_typeでは以下などを指定できる
+  - "ip" : IP Target Group
+  - "lambda" : Lambda Target Group
+  - "alb" : ALB Target Group
+
+### aws_lb
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb
+- Elastic Load Balancer
+  - aws_elbは従来のElastic Load Balancer(Classic Load Balancer)
+  - 今のELBは従来のELBにALBの機能も加えたようなもの？？？
+  - ALBはレイヤー7だけで機能するロードバランサー
+    - レイヤー7 : アプリケーション層(OSI参照モデル)
+    - 名前の通りアプリケーション層に特化している
+- subnetやsecurity_groupなどを指定する
+
+### aws_lb_listener
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
+- リスナーの作成
+- どのプロトコルでどのポートでのアクセスを受け付けるかという話
