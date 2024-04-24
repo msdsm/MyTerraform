@@ -23,3 +23,13 @@
 ### path.module
 - そのモジュールまでのpathを得られる
 - https://www.guri2o1667.work/entry/2023/04/20/%E3%80%90Terraform%E3%80%91%EF%BC%88%E5%88%9D%E5%BF%83%E8%80%85%E5%90%91%E3%81%91%EF%BC%89path.module%E3%81%A8path.root%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+
+### aws_iam_policy_document
+- IAMポリシーのJSONと対応
+- https://atsum.in/terraform/aws-iam-policy-document/
+
+### aws_iam_role
+- ロール作成
+
+### aws_iam_role_policy_attachment
+- ポリシーをロールにアタッチする
